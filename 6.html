@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Fancy Profile</title>
+    <style>
+        /* CSS 부분 */
+        /* 전체 배경 */
+        body {
+            background: linear-gradient(45deg, #ff00cc, #3333ff);
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* 헤더 */
+        .header {
+            background-color: #ffcc00;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        /* 메뉴 */
+        .menu {
+            background-color: #ff99cc;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 20px;
+        }
+
+        .menu a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 5px 15px;
+            margin: 0 10px;
+            border-radius: 5px;
+            background-color: #ff6699;
+            transition: all 0.3s ease;
+            display: inline-block;
+        }
+
+        .menu a:hover {
+            background-color: #ff3366;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* 프로필 카드 */
+        .profile-card {
+            background-color: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            margin: 20px;
+        }
+
+        .profile-card img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        .profile-card h2 {
+            color: #333333;
+            font-size: 24px;
+        }
+
+        .profile-card p {
+            color: #666666;
+            font-size: 18px;
+        }
+
+        /* 버튼 */
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #ffffff;
+            background-color: #ff6699;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #ff3366;
+            transform: scale(1.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* 입력 폼 */
+        .form-input {
+            margin-bottom: 20px;
+        }
+
+        .form-input input[type="text"],
+        .form-input input[type="email"] {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 1px solid #cccccc;
+        }
+
+        .form-input input[type="submit"] {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #ffffff;
+            background-color: #ff6699;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .form-input input[type="submit"]:hover {
+            background-color: #ff3366;
+            transform: scale(1.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 헤더 -->
+    <div class="header">
+        Maybe Profile
+    </div>
+
+    <!-- 메뉴 -->
+    <div class="menu">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <!-- 프로필 카드 -->
+    <div class="profile-card">
+        <img src="1.png" alt="Profile Picture">
+        <h2>NickNickNem</h2>
+        <p>
+            챗 지피티가 만들어준 프로필
+            <br>
+            유니티 작품 언제 완성할까
+        </p>
+        <button class="btn">Follow</button>
+    </div>
+
+    <!-- 입력 폼 -->
+    <div class="form-input">
+        <input type="text" placeholder="Castle Name">
+        <input type="email" placeholder="Humm...">
+    </div>
+</body>
+</html>
